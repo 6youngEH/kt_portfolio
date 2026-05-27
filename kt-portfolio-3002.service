@@ -1,0 +1,14 @@
+[Unit]
+Description=KT Portfolio Next.js dev server on port 3002
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/kyungtae/project/kt-portfolio
+ExecStart=/usr/bin/npm run dev:host
+Restart=always
+RestartSec=3
+Environment=NODE_ENV=development
+
+[Install]
+WantedBy=multi-user.target
