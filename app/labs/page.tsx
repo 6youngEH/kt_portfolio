@@ -3,12 +3,14 @@ import Link from "next/link";
 const labs = [
   ["01", "Linux / Server", "/labs/linux"],
   ["02", "Web", "/labs/web"],
-  ["03", "Network", "/labs/network"],
-  ["04", "Docker", "/labs/docker"],
-  ["05", "Spring Boot API", "/labs/spring-boot"],
-  ["06", "CI/CD", "/labs/ci-cd"],
-  ["07", "Cloud / IaC", "/labs/cloud"],
-  ["08", "Monitoring", "/labs/monitoring"],
+  ["03", "Python", "/labs/python"],
+  ["04", "Network", "/labs/network"],
+  ["05", "Docker", "/labs/docker"],
+  ["06", "Java", "/labs/java"],
+  ["07", "Spring Boot API", "/labs/spring-boot"],
+  ["08", "CI/CD", "/labs/ci-cd"],
+  ["09", "Cloud / IaC", "/labs/cloud"],
+  ["10", "Monitoring", "/labs/monitoring"],
 ];
 
 export default function LabsPage() {
